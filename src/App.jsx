@@ -1,8 +1,14 @@
-export default function App() {
+import { Post } from "./components/Post";
+
+export function App() {
   return (
-    <div>
-     Hello Word
-    </div>
+    <>
+     <Post />
+     <Post />
+     <Post />
+     <Post />
+     <Post />
+    </>
   )
 }
 
